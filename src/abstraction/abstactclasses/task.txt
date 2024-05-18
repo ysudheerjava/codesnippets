@@ -1,0 +1,6 @@
+1. Create an interface 'Shape'
+2. create a method getNoOfSides()
+3. Create classes - Square and Triangle each implementing abstract
+   method getNoOfSides()
+4. Main class for testing Shape.
+      

@@ -1,0 +1,6 @@
+1. What is a class relationship.
+2. What are different types of relationships
+3. What is is-a relationship, what is has-a relatonship. 
+4. What is Association, Composition, Aggregation. 
+5. Give example for is-A relationship, has-a relationship,
+6. Give examples of Association, composition and Aggregation. 

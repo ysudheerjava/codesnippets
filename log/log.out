@@ -1,0 +1,28 @@
+[INFO ] 2024-05-08 09:44:57,543 main exceptions.PropagationDemo : 11 doMoreStuff() method
+[INFO ] 2024-05-08 09:44:57,545 main exceptions.PropagationDemo : 15 Calculating a/b
+[ERROR] 2024-05-08 09:44:57,546 main exceptions.PropagationDemo : 18 Arithmetic Exception occurred
+java.lang.ArithmeticException: / by zero
+	at exceptions.PropagationDemo.doMoreStuff(PropagationDemo.java:16)
+	at exceptions.PropagationDemo.doStuff(PropagationDemo.java:25)
+	at exceptions.PropagationDemo.main(PropagationDemo.java:34)
+[ERROR] 2024-05-08 09:44:57,551 main exceptions.PropagationDemo : 27 Caught Arithmetic Exception in doStuff() method
+java.lang.ArithmeticException: / by zero
+	at exceptions.PropagationDemo.doMoreStuff(PropagationDemo.java:16)
+	at exceptions.PropagationDemo.doStuff(PropagationDemo.java:25)
+	at exceptions.PropagationDemo.main(PropagationDemo.java:34)
+[INFO ] 2024-05-08 09:44:57,554 main exceptions.PropagationDemo : 29 doStuff() method
+[INFO ] 2024-05-08 09:44:57,558 main exceptions.PropagationDemo : 35 Main method
+[ERROR] 2024-05-08 10:20:28,172 main exceptions.custom.BankAccount : 17 Insufficient funds for withdrawal. Attempted amount: $1500.0
+[ERROR] 2024-05-08 10:20:28,181 main exceptions.custom.Main : 23 Caught WithdrawalException: Insufficient funds for withdrawal
+[ERROR] 2024-05-08 10:20:28,182 main exceptions.custom.Main : 24 Attempted withdrawal amount: $1500.0
+[ERROR] 2024-05-08 10:49:08,620 main exceptions.custom.BankAccount : 17 Insufficient funds for withdrawal. Attempted amount: $1500.0
+[ERROR] 2024-05-08 10:49:08,628 main exceptions.custom.Main : 23 Caught WithdrawalException: Insufficient funds for withdrawal
+[ERROR] 2024-05-08 10:49:08,629 main exceptions.custom.Main : 24 Attempted withdrawal amount: $1500.0
+[ERROR] 2024-05-08 10:49:29,108 main exceptions.custom.BankAccount : 17 Insufficient funds for withdrawal. Attempted amount: $1500.0
+[ERROR] 2024-05-08 10:49:29,113 main exceptions.custom.Main : 23 Caught WithdrawalException: Insufficient funds for withdrawal
+[ERROR] 2024-05-08 10:49:29,114 main exceptions.custom.Main : 24 Attempted withdrawal amount: Rs. 1500.0
+[ERROR] 2024-05-08 12:16:36,917 main com.codegnan.banktransaction.BankAccount : 21 Insufficient funds for withdrawl, attempted amount: Rs.1500.0
+[ERROR] 2024-05-08 12:16:36,924 main com.codegnan.banktransaction.Main : 17 Caught WithdrawalException:Insufficient funds for Withdrawal
+[ERROR] 2024-05-08 12:16:36,927 main com.codegnan.banktransaction.Main : 18 Attempted to withdraw Rs.1500.0
+[ERROR] 2024-05-08 13:08:28,654 main exceptions.custom.voter.Main : 25 UnderAge UnderAgeException: Roseis not eligible to vote. Age must be greater than or equal to 18 
+[ERROR] 2024-05-08 13:09:11,120 main exceptions.custom.voter.Main : 25 UnderAge UnderAgeException: Rose is not eligible to vote. Age must be greater than or equal to 18 

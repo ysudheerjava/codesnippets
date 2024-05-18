@@ -1,0 +1,7 @@
+1. Create an interface called 'Shape'
+2. Create abstract method getShapeSides()
+3. Create a implementation classes - Square, Rectangle, Triangle
+4. In the three concrete classes provide implementation for the method getShapeSides()
+5. Create a Main class to take input from the user, 
+   and based on the input show the number of sides of shape to the user.  
+
